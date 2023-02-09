@@ -1,6 +1,6 @@
-# Refonte graphique pour EcoleDirecte !
+# Projet site e-commerce !
 
-Ajourd'hui je vous propose une refonte graphique pour EcoleDirecte.
+Petit projet d'entrainement pour la réalisation d'un site e-commerce.
 
 ## 💻 Languages utilisé
 ![](https://img.shields.io/badge/FrontEnd-HTML-informational?style=flat&color=2bbc8a)
@@ -9,5 +9,5 @@ Ajourd'hui je vous propose une refonte graphique pour EcoleDirecte.
 ![](https://img.shields.io/badge/BackEnd-PHP-informational?style=flat&color=2bbc8a)
 
 👤 Auteur : su apt install Kuma<br>
-🗓️ Début : 31 Janvier 2023<br>
+🗓️ Début : ?<br>
 🔧 Outils : Figma, Visual Studio Code, LAMP, WAMP, DBeaver
