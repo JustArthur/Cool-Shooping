@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    user-select: none;
+}
+
+:root {
+    --c-blue: #4200FF;
+    --c-light-blue: #F0F0F8;
+
+    --c-grey: #C5C5C5;
+    --c-light-grey: #F2F3F5;
+
+    --c-text-black: #404040;
+    --c-text-grey: #C5C5C5;
+
+    --box-shadow-blue: 0px 4px 11px 2px rgba(66, 0, 255, 0.4);
+}
+
+span.blue {
+    color: var(--c-blue);
+}
+
+
+
+
+body {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+nav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+nav .logo {
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--c-text-black);
+    margin-left: 60px;
+}
+
+nav .liens {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav .liens a {
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--c-text-black);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 300ms ease;
+}
+
+nav .liens a::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: var(--c-blue);
+    bottom: -10px;
+    transition: all 300ms ease;
+}
+
+nav .liens a:hover::before {
+    width: 100%;
+    transition: all 300ms ease;
+}
+
+nav .search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: max-content;
+    user-select: none;
+}
+
+nav .search input[type='search'] {
+    width: 780px;
+    height: 50px;
+    background: var(--c-light-grey);
+    border-radius: 3px;
+    border: none;
+    padding-left: 75px;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--c-text-black);
+    outline: none;
+}
+
+nav .search span {
+    position: absolute;
+    left: 15px;
+    font-size: 30px;
+    color: var(--c-text-black);
+}
+
+nav .profil {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .profil img {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+nav .profil span {
+    color: var(--c-text-black);
+    font-size: 30px;
+    transition: all 300ms ease;
+}
+
+nav .profil span:hover {
+    color: var(--c-blue);
+    transition: all 300ms ease;
+}
